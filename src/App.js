@@ -14,6 +14,14 @@ import {
   Calendar,
   ColorPicker,
   Editor,
+  Area,
+  Bar,
+  Pie,
+  Financial,
+  ColorMapping,
+  Line,
+  Pyramid,
+  Stacked,
 } from "./pages";
 
 const App = () => {
@@ -67,14 +75,14 @@ const App = () => {
             <Route path="/editor" element={<Editor />} />
             <Route path="/color-picker" element={<ColorPicker />} />
             {/* Charts */}
-            <Route path="/line" element="line" />
-            <Route path="/area" element="area" />
-            <Route path="/bar" element="bar" />
-            <Route path="/pie" element="pie" />
-            <Route path="/financial" element="financial" />
-            <Route path="/color-mapping" element="color-mapping" />
-            <Route path="/pyramid" element="pyramid" />
-            <Route path="/stacked" element="stacked" />
+            <Route path="/line" element={<Line />} />
+            <Route path="/area" element={<Area />} />
+            <Route path="/bar" element={<Bar />} />
+            <Route path="/pie" element={<Pie />} />
+            <Route path="/financial" element={<Financial />} />
+            <Route path="/color-mapping" element={<ColorMapping />} />
+            <Route path="/pyramid" element={<Pyramid />} />
+            <Route path="/stacked" element={<Stacked />} />
           </Routes>
         </div>
         <Footer />
