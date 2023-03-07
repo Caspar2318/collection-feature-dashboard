@@ -4,4 +4,8 @@
 
 # live at:
 
-data and sources from JS Mastery. Best practice project.
+Data and sources from JS Mastery. Best practice project.
+
+All functional apps and charts are from syncfusion, not self-coding but a third-party tool.
+
+Just for great practice to make things simple here.
