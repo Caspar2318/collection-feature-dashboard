@@ -2,7 +2,7 @@
 
 # Calendar, Kanban, Color picker, Charts, Theme color, Tables, dark/light mode
 
-# live at:
+# live at: https://collection.cxcspace.com
 
 Data and sources from JS Mastery. Best practice project.
 
